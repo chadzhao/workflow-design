@@ -15,7 +15,8 @@
 - 使用Json序列化保存表单设计
 - Json数据定义
 
-```json
+```javascript
+var config = 
   {
       'cols' : [10,20,30,20,20], // 每列宽度定义（单位：百分比）
       'maxFieldId' : 1, // 当前已分配的最大字段Id（防止重复使用）
