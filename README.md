@@ -33,6 +33,8 @@ var config =
             'colSpan' : 1, // 所占列数
             'rowSpan' : 1, // 所占行数
             'name' : '项目名称', // 字段名称
+            'label' : '显示名称', // 在表单里的显示名称（比如中英换行）
+            'labelPosition' : 'L1', // 表示左侧，占用1列（可用值：L左R右T上B下）
             'type' : 'text', // 字段类型(text/number/select/file)
             'style' : { // 额外的样式（比如文字过多可以把字体设置小）
                 'font-size' : '12px'
