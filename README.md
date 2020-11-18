@@ -128,7 +128,7 @@ var json = {
 ## 常规查询
 
 #### 动态字段匹配查询
-    比如字段id=1，类型为string，工作流模板Id为2.
+    比如查找模板为2，字段id=1，类型为string，关键字为keyword的记录.
 ```sql
     -- 先查询工作流记录
     select * from utWfRecord where wfTemplateId=2 and JSON_EXTRACT(FormData, '$.s1') like '%keyword%'
