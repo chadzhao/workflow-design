@@ -169,6 +169,7 @@ var json = {
 | ---- | ---- | ---- |
 | Id | int | 自增 |
 | FlowId | int | 流程节点内部Id |
+| RecordId | int | 对应工作流记录Id |
 | Name | string | 节点名称 |
 | AcceptorId | int | 当前节点负责人Id |
 | IsAccepted | bool? | 是否通过 |
